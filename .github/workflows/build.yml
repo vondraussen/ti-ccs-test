@@ -29,7 +29,7 @@ jobs:
       - name: Get CCS
         run: |
           wget https://dr-download.ti.com/software-development/ide-configuration-compiler-or-debugger/MD-J1VdearkvK/12.5.0/CCS12.5.0.00007_linux-x64.tar.gz
-          tar xvf CCS12.5.0.00007_linux-x64.tar.gzCCS12.5.0.00007_linux-x64
+          tar xvf CCS12.5.0.00007_linux-x64.tar.gz
           CCS12.5.0.00007_linux-x64/ccs_setup_12.5.0.00007.run --mode unattended --enable-components PF_CC2X
 
       - name: Install CCS
