@@ -22,9 +22,9 @@ jobs:
           # CCS12.5.0.00007_linux-x64/ccs_setup_12.5.0.00007.run --mode unattended --enable-components PF_CC2X
           echo test
 
-      - name: Install CCS
-        run: |
-          CCS12.5.0.00007_linux-x64/ccs_setup_12.5.0.00007.run --mode unattended --enable-components PF_CC2X
+      # - name: Install CCS
+      #   run: |
+      #     CCS12.5.0.00007_linux-x64/ccs_setup_12.5.0.00007.run --mode unattended --enable-components PF_CC2X
 
       - name: Test CCS
         run: |
