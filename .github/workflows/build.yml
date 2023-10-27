@@ -28,8 +28,8 @@ jobs:
 
       - name: Test CCS
         run: |
-          tree /home/runner/ti/ccs1250
-          ls -al /home/runner/ti/ccs1250
+          tree /home/runner
+          ls -al /home/runner
           find /home/runner/ti/ccs1250 -iname 'eclipsec'
           find /home/runner -iname 'eclipsec'
           eclipsec -noSplash -data ${PWD} -application com.ti.ccstudio.apps.projectCreate -ccs.help
